@@ -32,18 +32,28 @@ H264, AAC 를 제외한 최신 Codec을 지원하지 않는다 ( 예: VP8, VP9, 
 
 
 
-# Flow
 1. handshake
-2. connect
-3. createStream
-4. play
-5. deleteStream
-6. receiveAudio
-7. receiveVideo
-8. publish
-9. seek
-10. pause
-11. getStreamLength
+
+# Command Message
+1. Net Connection Command
+2. Net Stream Command
+
+## Net Connection Command
+- connect
+- call
+- close
+- createStream
+
+## Net Stream Command
+- play
+- play2
+- deleteStream
+- closeStream
+- receiveAudio
+- receiveVideo
+- publish
+- seek
+- pause
 
 
 ### 1. handshake

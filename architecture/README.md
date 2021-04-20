@@ -5,7 +5,7 @@
 
 자주 사용되는 MediaServer 아키텍쳐는 Mesh, SFU, MCU 3개가 있다. 
 
-WebRTC에서 일반적으로 사용되는 방식은 SFU이다
+WebRTC에서 일반적으로 사용되는 방식은 SFU이다   
 VoIP 에서 일반적으로 사용되는 방식은 MCU이다.   
 1:1 통화에서 일반적으로 사용디는 방식은 P2P(Mesh??)이다.  
 

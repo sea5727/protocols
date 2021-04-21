@@ -1,4 +1,4 @@
-# RTMP 번역 및 정리
+# RTMP 란 (번역 및 정리)
 
 # Reference
 
@@ -19,7 +19,9 @@ H264, AAC 를 제외한 최신 Codec을 지원하지 않는다 ( 예: VP8, VP9, 
 <img src="./infrastructure.png" width=450 height=350>
 
 # RTMP의 특징/특성
-- Chcunk Stream
+ - TCP
+ - Chcunk Stream
+ - 실시간성
 
 ## RTMP Chunk Stream
 
